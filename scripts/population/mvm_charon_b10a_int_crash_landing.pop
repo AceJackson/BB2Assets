@@ -1,4 +1,3 @@
-@ -1,2318 +1,2318 @@
 #base robot_giant.pop
 #base robot_standard.pop
 #base robot_gatebot.pop
@@ -89,7 +88,6 @@ population
 		{
 			Class Heavy
 			Name	"Heavy Xenomorh"
-			Name	"Heavy Xenomorph"
 			MaxVisionRange	1200
 			//Item	"The Xeno Suit"
 			Item	"the alien cranium"
@@ -1753,6 +1751,7 @@ population
 			TFBot
 				{
 					Template	T_TFGateBot_Giant_Heavyweapons_Shotgun_Cozy
+					//Attributes	"MiniBoss"
 					Tag	bot_giant
 				}
 		}
@@ -2098,7 +2097,7 @@ population
 				}
 				TFBot
 				{
-					Name	"Alien Shotgun Pyro"
+					//Name	"Alien Shotgun Pyro"
 					WeaponRestrictions	SecondaryOnly
 					ClassIcon	heavy_shotgun
 					Template	T_TFBot_Pyro
